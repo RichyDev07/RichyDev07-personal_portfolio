@@ -1,4 +1,4 @@
-export const Experience = [
+export const ExperienceData = [
     {
         id:"630120134042e2d798b59dc2",
         company: "Brightfield Tech",
