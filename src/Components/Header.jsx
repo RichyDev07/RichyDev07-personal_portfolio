@@ -1,9 +1,14 @@
 import React from 'react'
+import RichyImage from '../resources/images/Richy.jpg'
+
 
 const Header =() =>{
   return (
     <div className='bg-primary'>
-        <h1 className='text-secondary text-4xl pl-5 font-semibold '>RICHYDEV</h1>
+  <div>
+  <img src={RichyImage} alt='Richy' className='img-fluid rounded-full w-45' />
+
+  </div>
     </div>
   )
 }
