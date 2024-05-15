@@ -5,6 +5,7 @@
 @tailwind utilities;
 *{
     font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
 }
 /* width */
 ::-webkit-scrollbar {

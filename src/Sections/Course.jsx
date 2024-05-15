@@ -28,7 +28,7 @@ const Course   =()=> {
           ))}
         </div>
      <div className='flex items-center justify-center gap-20 sm:flex-col'>
-      <img src={Courses[selectedItemIndex].image} alt="" className='h-60 w-80' />
+      <img src={Courses[selectedItemIndex].image} alt="" className='h-60 w-80  rounded-tl-md rounded-tr-md rounded-bl-md rounded-br-md ' />
      <div className='flex flex-col gap-4' >
         <h1 className='text-secondary text-2xl'>{Courses[selectedItemIndex].title}</h1>
         <p className='text-white '>{Courses[selectedItemIndex].discription}</p>
